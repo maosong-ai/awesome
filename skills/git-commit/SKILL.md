@@ -1,7 +1,5 @@
 ---
-depends_on:
-  - registry://shared.delivery-prerequisites
-name: git-commit-new
+name: git-commit
 description: Git 提交规划与执行：按扫描范围收集变更、按 Conventional Commits 设计英文 subject 与必填 body（`- ` 列表）、拆成一次或多次提交（含同文件多类型拆分），方案经用户确认后再 git add/commit。触发：提交、commit、拆分提交、暂存、commit message、conventional commits、排除文件夹扫描、按块提交。不含 push、rebase、merge、改写业务需求。
 ---
 

@@ -1,8 +1,3 @@
----
-depends_on:
-  - registry://shared.delivery-prerequisites
----
-
 # Git 提交工作流 — 勾选清单
 
 ## Step 1：扫描范围 ⛔ BLOCKING
